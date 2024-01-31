@@ -1,0 +1,65 @@
+body {
+	background-image: url('background.png');
+	font-family: Sans-serif;
+}
+#heading1 {
+	text-align: center;
+}
+#shortcut{
+	text-align: center;
+}
+#picture {
+	border: 10px solid gray;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height:200px;
+}
+#about{
+	text-align: center;
+}
+#Name {
+	font-weight: bold;
+	font-size: 16pt;
+}
+#quote{
+	border: 10px solid #FFE4E1;
+	font-style: italic;
+	font-weight: bold;
+}
+li.school{
+	font-weight: bold;
+	font-size: 13pt;
+}
+div.container {
+	float: left;
+	height: 500px;
+	width:45%;
+	padding: 0 10px;
+}
+
+table, th, td {
+	font-size: 15pt;
+}
+table.assignments{
+	width:100%;
+}
+tr:nth-child(odd){
+	background-color: #F9E79F;
+}
+tr:nth-child(even) {
+	background-color: #BB8FCE;
+}
+
+a:hover {
+	color: black;
+	font-size: 20pt;
+	background-color: cyan;
+}
+
+span.cs{
+	font-weight: bold;
+	color: red;
+}
